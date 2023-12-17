@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login | زیکو</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-rtl.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<link rel="shortcut icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!-- Start Header -->
+	<div class="container">
+		<div class="row">
+			<div class="d-none d-lg-block col-lg-3">
+				<img src="assets/img/logo.png" alt="logo zicco" class="img-fluid my-3">
+			</div>
+			<div class="d-none d-lg-flex col-lg-6 align-items-center">
+				<div class="input-group custom-input-group">
+					<input type="search" class="form-control rounded-pill" placeholder="عبارت مورد نظر خود را جستجو کنید . . . .">
+					<div class="input-group-append">
+						<button class="btn btn-primary rounded-pill"> جستجو </button>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-lg-flex col-lg-3 align-items-center justify-content-center custom-header">
+				<a href="Login.html" class="border-left pl-3 ml-3">
+					<i class="fa fa-external-link align-middle pl-1"></i>
+					ورود
+				</a>
+				<a href="Sign_up.html" class="border-left pl-3 ml-3">
+					<i class="fa fa-user align-middle pl-1"></i>
+					ثبت نام
+				</a>
+				<a href="#" class=""><i class="fa fa-shopping-cart align-middle" data-toggle="tooltip" data-placement="top" title="سبدخرید"></i></a>
+			</div>
+			<div class="col-12 d-flex d-lg-none custom-header-none justify-content-center">
+				<a href="#" class="ml-5"><i class="fa fa-external-link align-middle"></i></a>
+				<a href="#" class="ml-5"><i class="fa fa-user align-middle"></i></a>
+				<a href="#" class="ml-5"><i class="fa fa-shopping-cart align-middle" data-toggle="tooltip" date-placement="top" title="سبد خرید"></i></a>
+				<a href="#Search-c" data-toggle="collapse" class="ml-5"><i class="fa fa-search align-middle"></i></a>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-12">
+				<div class="collapse" id="Search-c">
+				<div class="input-group custom-input-group">
+					<input type="search" class="form-control rounded-pill" placeholder="عبارت مورد نظر خود را جستجو کنید . . . .">
+					<div class="input-group-append">
+						<button class="btn btn-primary rounded-pill"> جستجو </button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Header -->
+	
+	<!-- Start Mneu -->
+	<nav class="navbar navbar-expand-lg navbar-dark mt-2" style="background-color: #4d545d !important;">
+		<div class="container">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="navbar-toggler-icon"> </span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="navbar-nav pr-0 text-center custom-navbar-nav">
+					<li class="nav-item custom-nav-item"> <a href="index.html" class="nav-link"> صفحه اصلی </a> </li>
+					<li class="nav-item dropdown custom-nav-item"> 
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> دوره های متخصص </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص اندروید با استاد قاسم خانی </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص php با استاد ارشادی </a>
+							<a href="Category.html" class="dropdown-item border-bottom py-2"> متخصص طراحی سایت با استاد دینی </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص اندروید با استاد حسین یزدانی </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص جاوا اسکریپت </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص وردپرس </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص افترافکت </a>
+							<a href="#" class="dropdown-item border-bottom py-2 custom-a-none-border"> متخصص پایتون </a>
+						</ul>
+					</li>
+					<li class="nav-item dropdown custom-nav-item"> 
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> گرافیک </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a href="#" class="dropdown-item border-bottom py-2"> متخصص افترافکت </a>
+							<a href="#" class="dropdown-item border-bottom py-2"> indeugn 2019 </a>
+							<a href="#" class="dropdown-item border-bottom py-2">Lightroom 2019</a>
+							<a href="#" class="dropdown-item border-bottom py-2"> Photoshop 2019 </a>
+							<a href="#" class="dropdown-item border-bottom py-2 custom-a-none-border"> Illustrator 2019 </a>
+						</ul>
+					</li>
+					<li class="nav-item dropdown custom-nav-item"> 
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> آفیس </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a href="#" class="dropdown-item border-bottom py-2 custom-a-none-border"> Excel </a>
+						</ul>
+					</li>
+					<li class="nav-item custom-nav-item"> <a href="#" class="nav-link"> لینکوس </a> </li>
+					<li class="nav-item custom-nav-item"> <a href="#" class="nav-link"> سی پلاس پلاس </a> </li>
+					<li class="nav-item custom-nav-item"> <a href="#" class="nav-link"> کانفیگ سرورهای لینوکسی </a> </li>
+					<li class="nav-item dropdown custom-nav-item"> 
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> مهندسی </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a href="#" class="dropdown-item border-bottom py-2"> آموزش اوتکد 2019 پروژه محور </a>
+							<a href="#" class="dropdown-item border-bottom py-2 custom-a-none-border"> Mtlab </a>
+						</ul>
+					</li>
+					<li class="nav-item custom-nav-item"> <a href="#" class="nav-link"> تماس با ما </a> </li>
+					<li class="nav-item custom-nav-item"> <a href="#" class="nav-link"> تحلیل بورسی </a> </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End Mneu -->
+	
+			<!-- Start Panel User -->
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<div class="card bg-info my-5 p-5">
+						<img src="assets/img/user.png" class="img-fluid rounded-circle d-block mx-auto" width="120px" height="120px" alt="user-image" >
+						<h5 class="text-white text-center mt-3" style="font-weight: 300;"> سلام دانیال فیروزی </h5>
+					</div>
+					<div class="text-right">
+						<div class="list-group p-0 mb-5">
+							<a href="#vaziyat" class="active list-group-item list-group-item-action" data-toggle="list"> مرور وضعیت </a>
+							<a href="#dore-signup" class="list-group-item list-group-item-action" data-toggle="list"> دوره هایی که ثبت نام کرده اید </a>
+							<a href="#creat-dore" class="list-group-item list-group-item-action" data-toggle="list"> دروه هایی که ایجاد کرده اید  </a>
+							<a href="#cash" class="list-group-item list-group-item-action" data-toggle="list"> تسویه حساب </a>
+							<a href="#money" class="list-group-item list-group-item-action" data-toggle="list"> افزایش موجودی </a>
+							<a href="#user-change" class="list-group-item list-group-item-action" data-toggle="list"> تغییر مشخصات من </a>
+							<a href="index.html" class="list-group-item list-group-item-action"> خروج </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-8">
+					<div class="tab-content">
+						<div class="tab-pane fade show active" id="vaziyat">
+							<div class="card my-5 pb-4 text-right">
+								<div class="card-header">
+									<h4> مرور وضعیت </h4>
+								</div>
+								<div class="card-body">
+									<div class="row">
+										<div class="col-12 col-md-6">
+											<div class="card mb-2">
+												<div class="card-body d-flex justify-content-between align-items-center">
+													<img src="assets/img/university-campus.png" class="img-fluid d-inline-block p-2 rounded" alt="uni" style="background-color: #f58221;">
+													<div class="d-inline-block text-center">
+													<p class="mb-0"> 12 دوره  </p>
+													<small> در سایت وجود دارد </small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="card mb-2">
+												<div class="card-body d-flex justify-content-between align-items-center">
+													<img src="assets/img/a.png" class="img-fluid d-inline-block p-2 rounded" alt="uni" style="background-color: #f58221;">
+													<div class="d-inline-block text-center">
+													<p class="mb-0"> 3 دوره  </p>
+													<small> ثبت نام کرده اید </small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="card mb-2">
+												<div class="card-body d-flex justify-content-between align-items-center">
+													<img src="assets/img/shopping-cart.png" class="img-fluid d-inline-block p-2 rounded" alt="uni" style="background-color: #f58221;">
+													<div class="d-inline-block text-center">
+													<p class="mb-0"> 0 دوره  </p>
+													<small> در انتظار پرداخت </small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="card mb-2">
+												<div class="card-body d-flex justify-content-between align-items-center">
+													<img src="assets/img/wallet-filled-money-tool.png" class="img-fluid d-inline-block p-2 rounded" alt="uni" style="background-color: #f58221;">
+													<div class="d-inline-block text-center">
+													<p class="mb-0"> 0 تومان  </p>
+													<small> موجودی قابل تسویه شما </small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="card mt-3">
+												<div class="card-body bg-light">
+													<p class="mb-2"> <i class="fa fa-bell align-middle"></i>  جدیدترین اعلان ها  </p>
+													<small> در تاریخ 1398/01/25 </small>
+													<div class="input-group mt-3">
+														<input type="text" class="form-control bg-light" placeholder="کد تخفیف 30 درصدی" style="border: 1px solid #4d0080;">
+														<div class="input-group-append">
+															<button class="btn btn-primary" style="background-color: #4d0080; border: none;"> منقضی شد </button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade shadow text-center" id="dore-signup">
+							<div class="card my-5 pb-4 text-center">
+								<div class="card-header">
+									<h4> دوره هایی که ثبت نام کرده اید  </h4>
+								</div>
+								<div class="card-body">
+									<div class="card mb-3 shadow">
+										<div class="card-body d-lg-flex">
+										<img src="assets/img/html.jpg" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+										<div class="d-inline-block pr-3 text-justify">
+											<a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;"> سیر تا پیاز Html & Html5 </a>
+											<small>
+											   بخش اول متخصص طراحی سایت :
+زبان نشانه گذاری HTML به عنوان اولین پایه برای هر دوره آموزش طراحی سایت در نظر گرفته می‌شود. این زبان چیست و چه کاربردی دارد؟ HTML مخفف عبارت Hypertext Markup Language است.
+											</small>
+											<div class="row">
+												<button class="btn btn-primary rounded-pill mr-auto ml-3" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+											</div>
+										</div>
+									</div>
+									</div>
+									<div class="card mb-3 shadow">
+										<div class="card-body d-lg-flex">
+										<img src="assets/img/Css.jpg" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+										<div class="d-inline-block pr-3 text-justify">
+											<a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 89px;"> اموزش پروژه محور Css و Css3
+ </a>
+											<small>
+بخش دوم متخصص طراحی سایت :
+CSS یکی از زبان های پرکاربرد در طراحی صفحات وب می باشد که در حقیقت وظیفه استایل دهی به صفحات را دارد. CSS کوتاه شده عبارت Cascading Style Sheets بوده و در کنار HTML برای طراحی صفحات وب لازم است.											
+											</small>
+											<div class="row">
+												<button class="btn btn-primary rounded-pill mr-auto ml-3" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+											</div>
+										</div>
+									</div>
+									</div>
+									<div class="card mb-3 shadow">
+										<div class="card-body d-lg-flex">
+										<img src="assets/img/bootstrap-4.png" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+										<div class="d-inline-block pr-3 text-justify">
+											<a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;"> آموزش Bootstrap 4 </a>
+											<small>
+بخش اول متخصص طراحی سایت :
+بوت استرپ (bootstrap) یک فریم ورک است که در طراحی صفحات وب به صورت رسپانسیو به کار می ورد. بوت استرپ شامل دستورات HTML، CSS و توابع جاوااسکریپت برای تولید و نمایش فرم ها، دکمه ها و المان های مورد نیاز طراحی وب می باشد.											
+											</small>
+											<div class="row">
+												<button class="btn btn-primary rounded-pill mr-auto ml-3" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+											</div>
+										</div>
+									</div>
+									</div>
+									<div class="card mb-3 shadow">
+										<div class="card-body d-lg-flex">
+										<img src="assets/img/js.png" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+										<div class="d-inline-block pr-3 text-justify">
+											<a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 74px;"> آموزش javascript – jquery – ajax </a>
+											<small>
+بخش چهارم متخصص طراحی سایت :
+جاوا اسکریپت برای اولین بار توسط شرکت Netscape و با نام LiveScript به عنوان نرم افزاری مفید جهت استفاده در دنیای وب به بازار عرضه شد ولی بعدها با حمایت شرکت Sun Microsystems (پدید آورنده JAVA ) با نام جاوا اسکریپت شناخته شد.
+											</small>
+											<div class="row">
+												<button class="btn btn-primary rounded-pill mr-auto ml-3" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+											</div>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div> 
+						<div class="tab-pane fade show text-right" id="creat-dore">
+							<div class="card my-5">
+								<div class="card-header">
+									<h4> دوره هایی که ایجاد کردید  </h4>
+								</div>
+								<div class="card-body text-center">
+									<div class="alert alert-info my-5 py-5 px-3">
+										<p class="my2"> شما هنوز هیچ دوره ای ایجاد نکرده اید  </p>
+										<p class="my2"> جهت کسب اطلاعات بیشتر در مورد نحوه همکاری با ما به بخش <a href="#">همکاری با ما </a> مراجعه بفرمایید .  </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show text-right" id="cash">
+							<div class="card my-5">
+								<div class="card-header">
+									<h4> تسویه حساب  </h4>
+								</div>
+								<div class="card-body text-center">
+									<div class="alert alert-info my-5 py-5 px-3">
+										<p class="my2"> موجودی حساب شما در حال حاضر 0 تومان است  </p>
+										<p class="my2"> جهت تسویه حساب موجودی شما باید حداقل 50.000 تومان باشد . </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show text-right" id="money">
+							<div class="card my-5">
+								<div class="card-header">
+									<h4> افزایش موجودی </h4>
+								</div>
+								<div class="card-body text-right">
+									<div class="alert alert-info my-5 py-5 px-3">
+										<ul>
+											<li> موجودی فعلی شما 0 تومان است . با افزایش موجودی خود می توانید در پرداخت های بعدی از موجودی خود استفاده کنید </li>
+											<li> حداقل مبلغ افزایش موجودی 10.000 تومان میباشد . </li>
+										</ul>
+									</div>
+									<div class="card my-4">
+										<div class="card-header text-center">
+											<span> فرم افزایش موجودی </span>
+										</div>
+										<div class="card-body">
+											<form>
+												<div class="form-group">
+													<label for="money"> مبلغ شارژ (تومان) </label>
+													<select class="custom-select" name="value-money" id="">
+														<option selected> 10.000 </option>
+														<option> 20.000 </option>
+														<option> 50.000 </option>
+														<option> 100.000 </option>
+													</select>
+												</div>
+												<button class="btn btn-primary d-block mx-auto" data-toggle="alert" data-target="#alert"> پرداخت </button>
+												<div class="alert alert-success alert-dismissible fade show text-center mt-3" id="alert">
+													<button class="close" type="submit" data-dismiss="alert"> <span> &times; </span> </button>
+													<span> مبلغ 50.000 تومان به حساب شما واریز شد </span>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						<div class="tab-pane fade show text-right" id="cash">
+							<div class="card my-5">
+								<div class="card-header">
+									<h4> تسویه حساب  </h4>
+								</div>
+								<div class="card-body text-center">
+									<div class="alert alert-info my-5 py-5 px-3">
+										<p class="my2"> موجودی حساب شما در حال حاضر 0 تومان است  </p>
+										<p class="my2"> جهت تسویه حساب موجودی شما باید حداقل 50.000 تومان باشد . </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show text-right" id="user-change">
+							<div class="card my-5">
+								<div class="card-header">
+									<h4> مشخصات کاربری </h4>
+								</div>
+								<div class="card-body">
+									<div class="card text-right my-3">
+										<div class="card-header bg-primary text-center pb-0 text-white">
+											<p> مشخصات کاربری شما : </p>
+										</div>
+										<div class="card-body">
+											<form>
+												<div class="form-group">
+													<p> نام : </p>
+													<input type="text" class="form-control" value="دانیال">
+												</div>
+												<div class="form-group">
+													<p> نام خانوادگی : </p>
+													<input type="text" class="form-control" value="فیروزی">
+												</div>
+												<div class="form-group">
+													<p> رمز عبور : </p>
+													<input type="password" class="form-control" value="123456789">
+												</div>
+												<div class="form-group">
+													<p> نام کاربری : </p>
+													<input type="text" class="form-control" value="danial_mc" disabled style="cursor:no-drop">
+												</div>
+												<div class="form-group">
+													<p> ایمیل : </p>
+													<input type="email" class="form-control" value="info.dsa1@yahoo.com" disabled style="cursor:no-drop">
+												</div>
+												<div class="form-group">
+													<button class="btn btn-primary btn-block my-4"> ثبت تغییرات </button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+		<!-- End Panel User -->
+	
+		<!-- Start Newsletters -->
+			<div class="container-fluid custom-container-fluid">
+				<div class="row py-5">
+					<div class="col-12 col-md-7 col-lg-5 mx-auto">
+						<h4 class="text-white text-center mb-4"> اشتراک در خبرنامه </h4>
+						<p class="text-white text-center"> جهت اطلاع از آخرین اخبار و تخفیف های سایت ، مشترک شوید !!! </p>
+						<form>
+							<div class="input-group">
+								<input type="email" class="form-control rounded-pill" name="email" id="" placeholder="ایمیل خود را وارد کنید  . . . ">
+								<div class="input-group-append">
+									<button class="btn btn-success rounded-pill"> اشتراک </button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		<!-- End Newsletters -->
+	
+	
+		<!-- Start Footer -->
+			<div class="container">
+				<div class="row py-4">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+						<small class="d-block border-bottom custom-small"> دسته ها </small>
+						<ul class="mt-3 pr-4 custom-ul">
+							<li> <a href="#"> حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+							<li> <a href="#"> دانش (1) </a> </li>
+							<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+							<li> <a href="#"> سیمان ؛ اهن و گچ (1) </a> </li>
+							<li> <a href="#"> همه صنایع (4) </a> </li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+						<small class="d-block border-bottom custom-small"> دسته ها </small>
+						<ul class="mt-3 pr-4 custom-ul">
+							<li> <a href="#"> حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+							<li> <a href="#"> دانش (1) </a> </li>
+							<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+							<li> <a href="#"> سیمان ؛ اهن و گچ (1) </a> </li>
+							<li> <a href="#"> همه صنایع (4) </a> </li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+						<small class="d-block border-bottom custom-small"> دسته ها </small>
+						<ul class="mt-3 pr-4 custom-ul">
+							<li> <a href="#"> حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+							<li> <a href="#"> دانش (1) </a> </li>
+							<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+							<li> <a href="#"> سیمان ؛ اهن و گچ (1) </a> </li>
+							<li> <a href="#"> همه صنایع (4) </a> </li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+						<small class="d-block border-bottom custom-small"> زرین پال </small>
+						<img src="assets/img/1.svg" class="img-fluid mt-3" alt="zarinpal">
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row justify-content-end">
+					<a href="#top" class="top-link"> <i class="fa fa-chevron-circle-up"> </i> </a>
+				</div>
+			</div>
+			<footer class="bg-light">
+				<div class="container">
+					<div class="row py-4">
+						<div class="col-12 col-lg-4">
+							<small class="text-muted"> کلیه حقوق محفوظ است | CopyRight &copy; 2006-2020 </small>
+						</div>
+						<div class="col-12 col-lg-4 text-center">
+							<a href="#" class="text-muted" style="color: #a7a7a7 !important;"> <i class="fa fa-twitter"></i> </a>
+							<a href="#" class="text-muted" style="color: #a7a7a7 !important;"> <i class="fa fa-facebook-f px-3"></i> </a>
+							<a href="#" class="text-muted" style="color: #a7a7a7 !important;"> <i class="fa fa-instagram"></i> </a>
+							<a href="#" class="text-muted" style="color: #a7a7a7 !important;"> <i class="fa fa-google-plus px-3"></i> </a>
+							<a href="#" class="text-muted" style="color: #a7a7a7 !important;"> <i class="fa fa-telegram"></i> </a>
+						</div>
+											<div class="col-12 col-lg-4 text-left">
+						<small class="text-muted"> Helali026@gmail.com </small> &shortmid;
+						<small class="text-muted"> +989364646164 </small>
+					</div>
+
+					</div>
+				</div>
+			</footer>
+		<!-- End Footer -->
+</body>
+</html>
